@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeopardy Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Copse&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="jeopardy.css">
+</head>
+<body>
+  <header>
+    <!-- game title and restart button -->
+    <h1>This is Jeopardy!</h1>
+    <button id="restart">Restart</button>
+  </header>
+
+  <!-- loading indicator -->
+<div id="loading">Loading...</div>
+
+<!-- game board container -->
+<div id="game-container">
+  <table id="jeopardy">
+    <thead>
+      <tr>
+        <!-- category titles will go in here -->
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="https://unpkg.com/lodash"></script>
+<script src="jeopardy.js"></script>
+
+</body>
+</html>
